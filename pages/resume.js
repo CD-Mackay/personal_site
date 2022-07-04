@@ -6,5 +6,5 @@ export default function Resume() {
       <Header />
       <p>I am Resume</p>
     </div>
-  )
+  );
 }
