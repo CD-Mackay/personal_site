@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Header from "../Components/Header/Header";
+import Footer from '../Components/Footer/Footer';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <div>
         <p>Welcome to my site!</p>
       </div>
+      <Footer />
     </div>
   );
 }
