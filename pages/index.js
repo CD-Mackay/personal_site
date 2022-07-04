@@ -10,6 +10,7 @@ export default function Home() {
         <meta name="description" content="Connor Mackay's personal site" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div><p>Welcome to my site!</p></div>
     </div>
   )
 }
