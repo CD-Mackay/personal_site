@@ -3,7 +3,7 @@ import styles from './Projects.module.css';
 
 export default function Projects() {
   return (
-    <div>
+    <div className={styles.projects}>
       <h3>Projects</h3>
       <ProjectCard name={"Staffify"} tech={["ReactJs"]}/>
       <ProjectCard name={"Notes App"} tech={["ReactJS", "DraftJS", "Axios", "Express", "Postgresql"]} />
