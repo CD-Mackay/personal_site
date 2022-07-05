@@ -1,6 +1,7 @@
 .footer {
-  width: 100vw;
   background-color: purple;
-  position: fixed;
   bottom: 0;
+  height: 40px;
+  position: fixed;
+  width: 100vw;
 }
