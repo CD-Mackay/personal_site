@@ -1,3 +1,4 @@
+import Footer from "../Components/Footer/Footer";
 import Header from "../Components/Header/Header";
 
 export default function Resume() {
@@ -5,6 +6,7 @@ export default function Resume() {
     <div>
       <Header />
       <p>I am Resume</p>
+      <Footer />
     </div>
   );
 }

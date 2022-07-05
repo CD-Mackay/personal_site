@@ -3,4 +3,17 @@
   background-color: blue;
   display: flex;
   justify-content: space-between;
+  height: 40px;
+}
+
+.navigation {
+  display: flex;
+}
+.link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid black;
 }
