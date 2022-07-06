@@ -4,7 +4,8 @@ export default function Hero() {
   return (
     <div className={styles.hero}>
       <div className={styles.text}>
-        Hi there! Im Connor and I make websites!
+        <h1>Connor Mackay</h1>
+        <p>Toronto based Web Developer</p>
       </div>
     </div>
   );
