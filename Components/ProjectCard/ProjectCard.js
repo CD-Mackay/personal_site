@@ -6,9 +6,11 @@ export default function ProjectCard({ name, tech }) {
   return (
     <div className={styles.card}>
       <Image
-        src="https://github.com/CD-Mackay/personal_site/blob/main/public/mini_arcade_screen.png"
+        src="/staffing_app_screen.png"
         alt="application screenshot"
-        layout="fill"
+        layout="intrinsic"
+        width={400}
+        height={400}
       />
       <h6>{name}</h6>
       <ul>
