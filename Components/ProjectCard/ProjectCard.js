@@ -14,7 +14,7 @@ export default function ProjectCard({ name, tech, url, image }) {
           width={400}
           height={200}
         />
-        <h6 className={styles.header}>{name}</h6>
+        <h6>{name}</h6>
         <ul>
           {tech.map((element, index) => {
             return <li key={index}>{element}</li>;
