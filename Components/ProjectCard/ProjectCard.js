@@ -21,6 +21,7 @@ export default function ProjectCard({ name, tech, url }) {
         })}
       </ul>
       <Link href={url} target="_blank">
+        <BsGithub />
       </Link>
     </div>
   );
