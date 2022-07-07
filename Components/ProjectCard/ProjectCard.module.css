@@ -2,4 +2,14 @@
   padding: 5px;
   border: 1px solid gray;
   margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.anchor {
+  width: 30px;
+}
+.anchor:hover {
+  cursor: pointer;
 }
