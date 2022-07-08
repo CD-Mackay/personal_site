@@ -18,6 +18,25 @@ export default function ResumeDoc() {
         </div>
         <div>
           <h6>Projects</h6>
+          <p>Notes App</p>
+          <ul>
+            <li>ReactJS</li>
+            <li>DraftJS</li>
+          </ul>
+          <p>Mini-Arcade</p>
+          <ul>
+            <li>ReactJS</li>
+          </ul>
+          <p>HelpMeHelpYou</p>
+          <ul>
+            <li>Ruby on Rails</li>
+            <li>ReactJS</li>
+          </ul>
+          <p>Staffify</p>
+          <ul>
+            <li>ReactJS</li>
+            <li>RouterV6</li>
+          </ul>
         </div>
       </div>
       <div className={styles.experience}>
