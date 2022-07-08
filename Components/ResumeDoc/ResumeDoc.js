@@ -25,9 +25,25 @@ export default function ResumeDoc() {
           front-end interfaces for clients.
         </p>
         <h3>Skills</h3>
+        <p>
+          <strong>Languages:</strong> Javascript, Ruby, HTML, CSS
+        </p>
+        <p>
+          <strong>Libraries & Frameworks:</strong> React, Rails Ajax, Express,
+          Jquery, ActiveRecord, SASS Socket.io, NextJS
+        </p>
+        <p>
+          <strong>Testing: </strong> Mocha/Chai, Jest, Cypress
+        </p>
+        <p>
+          <strong>Databases and CMS: </strong> SQL, PSQL , GraphQL
+        </p>
+        <p>
+          <strong>Source & Project Management: </strong>  Github,
+GitKraken, Jira, Jenkins
+        </p>
         <h3>Education</h3>
         <h3>Work Experience</h3>
-        
       </div>
     </div>
   );
