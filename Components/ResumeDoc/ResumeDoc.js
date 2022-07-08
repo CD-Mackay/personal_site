@@ -39,11 +39,35 @@ export default function ResumeDoc() {
           <strong>Databases and CMS: </strong> SQL, PSQL , GraphQL
         </p>
         <p>
-          <strong>Source & Project Management: </strong>  Github,
-GitKraken, Jira, Jenkins
+          <strong>Source & Project Management: </strong> Github, GitKraken,
+          Jira, Jenkins
         </p>
         <h3>Education</h3>
+        <p>Web Development Diploma</p>
+        <p>Lighthouse Labs | 2020-2021</p>
+        <p>Bachelor of Arts, Legal Studies</p>
+        <p>Carleton University | 2012 - 2016</p>
         <h3>Work Experience</h3>
+        <p>Junior Developer</p>
+        <p>
+          C R E A T I O N C R A T E I N C . | A U G U S T 2 0 2 1 - D E C E M B
+          E R 2 0 2 1
+        </p>
+        <ul>
+          <li>
+            Assisted with the development and deployment of new product pages
+            concerning new product lines and seasonal promotions.
+          </li>
+        </ul>
+        <p>Summer Student</p>
+        <p>R B C C A P I T A L M A R K E T S | S U M M E R 2 0 1 4 - 2 0 1 5</p>
+        <ul>
+          <li>
+            Responsible for maintaining trading documents, communicating and
+            explaining changes to stakeholders as well as tracking progress on
+            long-term projects.
+          </li>
+        </ul>
       </div>
     </div>
   );
