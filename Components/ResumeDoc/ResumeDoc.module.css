@@ -6,4 +6,10 @@
 .contact {
   background-color: blue;
   color: white;
+  text-align: right;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
 }
