@@ -7,6 +7,11 @@
   background-color: blue;
   color: white;
   text-align: right;
+  padding: 20px;
+}
+
+.experience {
+  padding: 20px;
 }
 
 .links {
