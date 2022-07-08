@@ -7,7 +7,6 @@ export default function Resume() {
     <div>
       <Header />
       <ResumeDoc />
-      <Footer />
     </div>
   );
 }
