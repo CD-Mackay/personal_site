@@ -3,6 +3,10 @@
   grid-template-columns: 1fr 2fr;
 }
 
+.projects {
+  text-align: left;
+}
+
 .contact {
   background-color: blue;
   color: white;

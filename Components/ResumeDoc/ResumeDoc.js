@@ -16,7 +16,7 @@ export default function ResumeDoc() {
             <Link href="">Linkedin: Connor Mackay</Link>
           </div>
         </div>
-        <div>
+        <div className={styles.projects}>
           <h6>Projects</h6>
           <p>Notes App</p>
           <ul>
