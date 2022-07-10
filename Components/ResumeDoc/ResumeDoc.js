@@ -74,8 +74,7 @@ export default function ResumeDoc() {
         <h3>Work Experience</h3>
         <p>Junior Developer</p>
         <p>
-          C R E A T I O N C R A T E I N C . | A U G U S T 2 0 2 1 - D E C E M B
-          E R 2 0 2 1
+          CREATION CRATE INC. | AUGUST 2021 - DECEMBER 2021
         </p>
         <ul>
           <li>
@@ -84,7 +83,7 @@ export default function ResumeDoc() {
           </li>
         </ul>
         <p>Summer Student</p>
-        <p>R B C C A P I T A L M A R K E T S | S U M M E R 2 0 1 4 - 2 0 1 5</p>
+        <p>RBC CAPITAL MARKETS | SUMMER 2014 - 2015</p>
         <ul>
           <li>
             Responsible for maintaining trading documents, communicating and
