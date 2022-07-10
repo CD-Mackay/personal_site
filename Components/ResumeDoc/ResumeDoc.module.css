@@ -1,6 +1,7 @@
 .page {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 2fr 3fr;
+  padding: 40px;
 }
 
 .projects {
@@ -8,7 +9,7 @@
 }
 
 .contact {
-  background-color: #0035aa;
+  background-color: #2a3e5f;
   color: white;
   text-align: right;
   padding: 20px;
