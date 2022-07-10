@@ -5,7 +5,7 @@ export default function ResumeDoc() {
   return (
     <div className={styles.page}>
       <div className={styles.contact}>
-        <div className={styles.resume_section}>
+        <div className={styles.contact_details}>
           <h2>Connor Mackay</h2>
           <h6>Toronto Web Developer</h6>
           <p>Contact</p>
@@ -79,7 +79,7 @@ export default function ResumeDoc() {
         </div>
         <div className={styles.resume_section}>
           <h3>Work Experience</h3>
-          <p>Junior Developer</p>
+          <p className={styles.education}>Junior Developer</p>
           <p>CREATION CRATE INC. | AUGUST 2021 - DECEMBER 2021</p>
           <ul>
             <li>
@@ -87,7 +87,7 @@ export default function ResumeDoc() {
               concerning new product lines and seasonal promotions.
             </li>
           </ul>
-          <p>Summer Student</p>
+          <p className={styles.education}>Summer Student</p>
           <p>RBC CAPITAL MARKETS | SUMMER 2014 - 2015</p>
           <ul>
             <li>
