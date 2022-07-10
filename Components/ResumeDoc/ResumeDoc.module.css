@@ -6,6 +6,15 @@
 
 .projects {
   text-align: left;
+  margin-left: 40px;
+}
+
+.education {
+  font-weight: 600;
+}
+
+.resume_section {
+  margin-bottom: 20px;
 }
 
 .contact {
