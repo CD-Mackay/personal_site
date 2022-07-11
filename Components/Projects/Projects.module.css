@@ -1,10 +1,10 @@
 .projects {
-  margin-bottom: 60px;
   margin: 0 auto;
 }
 .grid {
   display: grid;
   grid-template-columns: 1fr;
+  margin-bottom: 60px;
 }
 
 @media (min-width: 576px) {
