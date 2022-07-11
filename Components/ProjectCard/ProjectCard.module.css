@@ -7,9 +7,12 @@
   justify-content: space-between;
 };
 
-.anchor {
-  width: 30px;
-}
+
+
 .anchor:hover {
   cursor: pointer;
 }
+
+.anchor {
+  width: 30px;
+};

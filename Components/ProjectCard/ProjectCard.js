@@ -23,8 +23,11 @@ export default function ProjectCard({ name, tech, url, image }) {
       </div>
       <div className={styles.anchor}>
         <Link href={url} target="_blank">
-          <BsGithub />
+          <BsGithub fontSize="22px" />
         </Link>
+        {/* <Link href={url} target="_blank">
+          View on Github
+        </Link> */}
       </div>
     </div>
   );
