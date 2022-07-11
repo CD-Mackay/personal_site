@@ -1,5 +1,6 @@
 .projects {
   margin-bottom: 60px;
+  margin: 0 auto;
 }
 .grid {
   display: grid;
@@ -14,8 +15,17 @@
 }
 
 @media (min-width: 768px) {
+  .projects {
+    max-width: 90vw;
+  }
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 992px) {
+  .projects {
+    max-width: 80vw;
   }
 }
