@@ -4,7 +4,7 @@
   color: white;
   display: flex;
   justify-content: space-between;
-  height: 40px;
+  min-height: 40px;
 }
 
 .header_content {
