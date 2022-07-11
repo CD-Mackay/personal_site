@@ -6,6 +6,13 @@
   height: 40px;
 }
 
+.header_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5px;
+}
+
 .navigation {
   display: flex;
 }
