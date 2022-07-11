@@ -1,13 +1,12 @@
 .card {
   padding: 5px;
   border: 1px solid gray;
+  border-radius: 5px;
   margin: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-};
-
-
+}
 
 .anchor:hover {
   cursor: pointer;
@@ -15,4 +14,4 @@
 
 .anchor {
   width: 30px;
-};
+}

@@ -6,14 +6,14 @@ import { BsGithub } from "react-icons/bs";
 export default function ProjectCard({ name, tech, url, image }) {
   return (
     <div className={styles.card}>
-      <div>
-        <Image
-          src={image}
-          alt="application screenshot"
-          layout="intrinsic"
-          width={400}
-          height={200}
-        />
+      <div className={styles.project_wrapper}>
+          <Image
+            src={image}
+            alt="application screenshot"
+            layout="intrinsic"
+            width={400}
+            height={200}
+          />
         <h6>{name}</h6>
         <ul>
           {tech.map((element, index) => {
