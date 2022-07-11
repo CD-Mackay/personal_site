@@ -1,16 +1,31 @@
+.list {
+  
+}
+
 .skills {
   margin: 0 auto;
-};
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+@media (min-width: 576px) {
+  .skills {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 
 
 @media (min-width: 768px) {
   .skills {
     max-width: 90vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
 @media (min-width: 992px) {
   .skills {
     max-width: 80vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 }
