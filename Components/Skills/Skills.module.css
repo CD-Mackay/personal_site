@@ -1,0 +1,16 @@
+.skills {
+  margin: 0 auto;
+};
+
+
+@media (min-width: 768px) {
+  .skills {
+    max-width: 90vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .skills {
+    max-width: 80vw;
+  }
+}
