@@ -6,6 +6,15 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 80px;
+}
+
+.skill_header {
+  width: 200px;
+}
+
+.list {
+  margin-bottom: 20px;
 }
 
 
@@ -28,10 +37,14 @@
 
 @media (min-width: 992px) {
   .skills {
-    max-width: 80vw;
+    width: 80vw;
   }
   .skills_grid {
-    max-width: 80vw;
+    width: 80vw;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .list {
+    width: 160px;
   }
 }
