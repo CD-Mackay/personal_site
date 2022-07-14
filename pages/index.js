@@ -16,6 +16,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Projects />
+      <div className="divider" />
       <Skills />
       <Footer />
     </div>

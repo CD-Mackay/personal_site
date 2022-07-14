@@ -6,6 +6,11 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.divider {
+  width: 100vw;
+  border-bottom: 1px solid gray;
+}
+
 
 a {
   color: inherit;
