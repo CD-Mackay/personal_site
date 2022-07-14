@@ -16,7 +16,7 @@ export default function Projects() {
           name={"Notes App"}
           tech={["ReactJS", "DraftJS", "Axios", "Express", "Postgresql"]}
           url="https://github.com/CD-Mackay/notes-app"
-          image="/staffing_app_screen.png"
+          image="/notes_app_screen.png"
         />
         <ProjectCard
           name={"HelpMeHelpYou"}
