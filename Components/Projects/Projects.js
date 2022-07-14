@@ -22,7 +22,7 @@ export default function Projects() {
           name={"HelpMeHelpYou"}
           tech={["ReactJS", "Axios", "Rails", "Postgresql", "Socket.io"]}
           url="https://github.com/alan-mak/HelpMeHelpYou"
-          image="/mini_arcade_screen.png"
+          image="/helpmehelpyou.png"
         />
         <ProjectCard
           name={"Mini Arcade"}
