@@ -19,16 +19,16 @@ export default function Projects() {
           image="/notes_app_screen.png"
         />
         <ProjectCard
-          name={"HelpMeHelpYou"}
-          tech={["ReactJS", "Axios", "Rails", "Postgresql", "Socket.io"]}
-          url="https://github.com/alan-mak/HelpMeHelpYou"
-          image="/helpmehelpyou.png"
-        />
-        <ProjectCard
           name={"Mini Arcade"}
           tech={["ReactJS"]}
           url="https://github.com/CD-Mackay/mini-arcade"
           image="/mini_arcade_screen.png"
+        />
+        <ProjectCard
+          name={"HelpMeHelpYou"}
+          tech={["ReactJS", "Axios", "Rails", "Postgresql", "Socket.io"]}
+          url="https://github.com/alan-mak/HelpMeHelpYou"
+          image="/helpmehelpyou.png"
         />
       </div>
     </div>

@@ -25,9 +25,6 @@ export default function ProjectCard({ name, tech, url, image }) {
         <Link href={url} target="_blank">
           <BsGithub fontSize="22px" />
         </Link>
-        {/* <Link href={url} target="_blank">
-          View on Github
-        </Link> */}
       </div>
     </div>
   );
