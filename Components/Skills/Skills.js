@@ -4,7 +4,7 @@ import styles from "./Skills.module.css";
 export default function Skills() {
   return (
     <div className={styles.skills}>
-      <h3>Skills</h3>
+      <h2>Skills</h2>
       <div className={styles.skills_grid}>
         <div className={styles.list}>
           <h5 className={styles.skill_header}>Languages</h5>

@@ -4,7 +4,7 @@ import styles from "./Projects.module.css";
 export default function Projects() {
   return (
     <div className={styles.projects}>
-      <h3>Projects</h3>
+      <h2>Projects</h2>
       <div className={styles.grid}>
         <ProjectCard
           name={"Staffify"}
