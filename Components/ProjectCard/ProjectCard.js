@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { BsGithub } from "react-icons/bs";
 
-export default function ProjectCard({ name, tech, url, image }) {
+export default function ProjectCard({ name, tech, url, image, description }) {
   return (
     <div className={styles.card}>
       <div className={styles.project_wrapper}>
@@ -14,12 +14,15 @@ export default function ProjectCard({ name, tech, url, image }) {
             width={400}
             height={200}
           />
-        <h6>{name}</h6>
-        <ul>
+        <h5>{name}</h5>
+        {/* <ul>
           {tech.map((element, index) => {
             return <li key={index}>{element}</li>;
           })}
-        </ul>
+        </ul> */}
+        <p>{description}</p>
+        <h6>Technology</h6>
+        <p>{tech}</p>
       </div>
       <div className={styles.anchor}>
         <Link href={url} target="_blank">
