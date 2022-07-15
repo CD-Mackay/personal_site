@@ -18,14 +18,14 @@
   .projects {
     max-width: 90vw;
   }
-  .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
 }
 
 @media (min-width: 992px) {
   .projects {
     max-width: 80vw;
+  }
+
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
