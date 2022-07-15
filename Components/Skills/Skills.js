@@ -7,7 +7,7 @@ export default function Skills() {
       <h2>Skills</h2>
       <div className={styles.skills_grid}>
         <div className={styles.list}>
-          <h5 className={styles.skill_header}>Languages</h5>
+          <h3 className={styles.skill_header}>Languages</h3>
           <ul>
             <li>Javascript</li>
             <li>Ruby</li>
@@ -16,7 +16,7 @@ export default function Skills() {
           </ul>
         </div>
         <div className={styles.list}>
-          <h5 className={styles.skill_header}>Libraries & Frameworks</h5>
+          <h3 className={styles.skill_header}>Libraries & Frameworks</h3>
           <ul>
             <li>ReactJS</li>
             <li>Ruby on Rails</li>
@@ -27,7 +27,7 @@ export default function Skills() {
           </ul>
         </div>
         <div className={styles.list}>
-          <h5 className={styles.skill_header}>Testing</h5>
+          <h3 className={styles.skill_header}>Testing</h3>
           <ul>
             <li>Mocha/Chai</li>
             <li>Jest</li>
@@ -36,7 +36,7 @@ export default function Skills() {
           </ul>
         </div>
         <div className={styles.list}>
-          <h5 className={styles.skill_header}>Database Systems</h5>
+          <h3 className={styles.skill_header}>Database Systems</h3>
           <ul>
             <li>SQL</li>
             <li>PostgreSQL</li>
@@ -44,7 +44,7 @@ export default function Skills() {
           </ul>
         </div>
         <div className={styles.list}>
-          <h5 className={styles.skill_header}>Source & Project Management</h5>
+          <h3 className={styles.skill_header}>Source & Project Management</h3>
           <ul>
             <li>Github</li>
             <li>GitKraken</li>
