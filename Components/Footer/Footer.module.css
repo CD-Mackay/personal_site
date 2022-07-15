@@ -1,7 +1,19 @@
 .footer {
-  background-color: purple;
+  background-color: black;
   bottom: 0;
   height: 40px;
-  position: fixed;
+  position: relative;
   width: 100vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer_text {
+  margin: 0px;
+}
+
+.content {
+  display: flex;
 }
