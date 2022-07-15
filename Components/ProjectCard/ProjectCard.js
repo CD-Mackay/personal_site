@@ -10,7 +10,7 @@ export default function ProjectCard({ name, tech, url, image }) {
           <Image
             src={image}
             alt="application screenshot"
-            layout="intrinsic"
+            layout="responsive"
             width={400}
             height={200}
           />
