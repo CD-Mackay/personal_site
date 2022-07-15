@@ -33,3 +33,7 @@
   border: 1px solid white;
   border-radius: 5px;
 }
+
+@media print {
+  .header { display: none !important;}
+}
