@@ -6,8 +6,6 @@
     rgba(156, 78, 151, 1) 50%,
     rgba(0, 53, 170, 1) 80%
   );
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
 .text {
@@ -15,5 +13,7 @@
   flex-direction: column;
   justify-content: center;
   color: white;
-  padding: 40px;
+  margin-left: 10vw;
+  width: 30vw;
+  height: 100%;
 }
