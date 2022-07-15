@@ -6,7 +6,7 @@ export default function Hero() {
       <div className={styles.text}>
         <h1>Connor Mackay&#39;s Site</h1>
         <p>Toronto based Web Developer</p>
-        <p>
+        <p className={styles.hero_body}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
