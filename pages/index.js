@@ -14,10 +14,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
+      <div className="divider" />
       <Hero />
+      <div className="divider" />
       <Projects />
       <div className="divider" />
       <Skills />
+      <div className="divider" />
       <Footer />
     </div>
   );
