@@ -30,7 +30,7 @@ export default function Projects() {
         <ProjectCard
           name={"HelpMeHelpYou"}
           tech="ReactJS, Axios, Rails, Posgresql, Socket.io"
-          description="Collaborated with Alan Mak and Justin Chan. HelpMeHelpYou is a community based app, allowing helpful neighbors to connect with their neighbors in need. An anonymous chat function allows the poster to verify the helper before providing a physical address."
+          description="Collaborated with Alan Mak and Justin Chan. HelpMeHelpYou is a community based app, allowing helpful neighbors to connect with their neighbors in need. Features a websocket based chat room."
           url="https://github.com/alan-mak/HelpMeHelpYou"
           image="/helpmehelpyou.png"
         />
