@@ -15,3 +15,8 @@
 .anchor {
   width: 30px;
 }
+
+.image_wrapper {
+  border-radius: 5px;
+  overflow: hidden;
+}

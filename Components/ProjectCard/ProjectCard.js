@@ -7,6 +7,7 @@ export default function ProjectCard({ name, tech, url, image, description }) {
   return (
     <div className={styles.card}>
       <div className={styles.project_wrapper}>
+        <div className={styles.image_wrapper}>
           <Image
             src={image}
             alt="application screenshot"
@@ -14,6 +15,7 @@ export default function ProjectCard({ name, tech, url, image, description }) {
             width={400}
             height={200}
           />
+        </div>
         <h5>{name}</h5>
         <p>{description}</p>
         <h6>Technology</h6>
