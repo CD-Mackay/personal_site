@@ -15,11 +15,6 @@ export default function ProjectCard({ name, tech, url, image, description }) {
             height={200}
           />
         <h5>{name}</h5>
-        {/* <ul>
-          {tech.map((element, index) => {
-            return <li key={index}>{element}</li>;
-          })}
-        </ul> */}
         <p>{description}</p>
         <h6>Technology</h6>
         <p>{tech}</p>
