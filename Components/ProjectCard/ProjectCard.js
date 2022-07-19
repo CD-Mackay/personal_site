@@ -16,7 +16,7 @@ export default function ProjectCard({ name, tech, url, image, description }) {
             height={200}
           />
         </div>
-        <h5>{name}</h5>
+        <h5 className={styles.project_header}>{name}</h5>
         <p>{description}</p>
         <h6>Technology</h6>
         <p>{tech}</p>
