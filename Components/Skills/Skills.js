@@ -2,6 +2,8 @@ import ProjectCard from "../ProjectCard/ProjectCard";
 import styles from "./Skills.module.css";
 
 export default function Skills() {
+
+  //// MAKE MINI COMPONENTS FOR EACH SUBHEADING W/LIST AND MAP OUT AN OBJECT DUUUUH
   return (
     <div className={styles.skills}>
       <h2 className={styles.skills_header}>Skills</h2>

@@ -2,17 +2,39 @@ import ProjectCard from "../ProjectCard/ProjectCard";
 import styles from "./Projects.module.css";
 
 export default function Projects() {
+  const PROJECT_DATA = [
+    {
+      name: "Staffify",
+      tech: "ReactJs",
+      description:
+        "A human resources app for managing employees and teams. Employees can be assigned to projects, flagged for performance and affiliated with technical skills.",
+      url: "https://github.com/CD-Mackay/staffing-app",
+      image: "/staffing_app_screen.png",
+    },
+  ];
   return (
     <div className={styles.projects}>
       <h2>Projects</h2>
       <div className={styles.grid}>
-        <ProjectCard
+        {PROJECT_DATA.map((proj, index) => {
+          return (
+            <ProjectCard
+              key={index}
+              name={proj.name}
+              tech={proj.tech}
+              description={proj.description}
+              url={proj.url}
+              image={proj.image}
+            />
+          );
+        })}
+        {/* <ProjectCard //////// FINISH REFACTORING THIS YOU GODDAMN MEATHEAD
           name={"Staffify"}
           tech={["ReactJs"]}
           description="A human resources app for managing employees and teams. Employees can be assigned to projects, flagged for performance and affiliated with technical skills."
           url="https://github.com/CD-Mackay/staffing-app"
           image="/staffing_app_screen.png"
-        />
+        /> */}
         <ProjectCard
           name={"Notes App"}
           tech="ReactJS, DraftJS, Axios, Express, Postgresql"
