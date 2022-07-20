@@ -8,26 +8,15 @@
   grid-template-columns: 1fr;
 }
 
-.skill_header {
-  width: 250px;
-}
-
 .skills_header {
   margin-bottom: 0px;
 }
-
-.list {
-  margin-bottom: 20px;
-  justify-self: center;
-}
-
 
 @media (min-width: 576px) {
   .skills_grid {
     grid-template-columns: 1fr 1fr;
   }
 }
-
 
 @media (min-width: 768px) {
   .skills {
@@ -36,9 +25,6 @@
   .skills_grid {
     max-width: 90vw;
     grid-template-columns: 1fr 1fr;
-  }
-  .list {
-    justify-self: start;
   }
 }
 
@@ -49,9 +35,5 @@
   .skills_grid {
     width: 80vw;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  }
-
-  .list {
-    width: 160px;
   }
 }
