@@ -1,36 +1,9 @@
 import SkillsList from "../SkillsList/SkillsList";
 import styles from "./Skills.module.css";
+import { SKILLS_DATA } from "../../public/data/data";
 
 export default function Skills() {
-  const SKILLS_DATA = [
-    {
-      heading: "Languages",
-      skills: ["Javascript", "Ruby", "HTML5", "CSS3"],
-    },
-    {
-      heading: "Libraries & Frameworks",
-      skills: [
-        "ReactJS",
-        "Ruby on Rails",
-        "NextJS",
-        "Jquery",
-        "Ajax",
-        "ExpressJs",
-      ],
-    },
-    {
-      heading: "Testing",
-      skills: ["Mocha/Chai", "Jest", "Cypress", "Storybook"],
-    },
-    {
-      heading: "Database Systems",
-      skills: ["SQL", "PostgreSQL", "GraphQL"],
-    },
-    {
-      heading: "Source & Project Management",
-      skills: ["Github", "GitKraken", "Jira", "Jenkins"],
-    },
-  ];
+
   return (
     <div className={styles.skills}>
       <h2 className={styles.skills_header}>Skills</h2>
