@@ -6,33 +6,43 @@ export default function ResumeDoc() {
     <div className={styles.page}>
       <div className={styles.contact}>
         <div className={styles.contact_details}>
-          <h2>Connor Mackay</h2>
+          <h2 id={styles.resume_name}>Connor Mackay</h2>
           <h6>Toronto Web Developer</h6>
-          <p className={styles.education}>Contact</p>
-          <p>647-393-4597</p>
-          <p>connor.mackay@gmail.com</p>
+          <p className={styles.res_header}>Contact</p>
+            <p className={styles.res_contact}>647-393-4597</p>
+            <p className={styles.res_contact}>connor.mackay@gmail.com</p>
           <div className={styles.links}>
-            <Link href="https://github.com/CD-Mackay">Github: CD-Mackay</Link>
-            <Link href="https://www.linkedin.com/in/connor-mackay-800992bb/">Linkedin: Connor Mackay</Link>
+            <Link
+              className={styles.resume_link}
+              href="https://github.com/CD-Mackay"
+            >
+              Github: CD-Mackay
+            </Link>
+            <Link
+              className={styles.resume_link}
+              href="https://www.linkedin.com/in/connor-mackay-800992bb/"
+            >
+              Linkedin: Connor Mackay
+            </Link>
           </div>
         </div>
         <div className={styles.projects}>
           <h6>Projects</h6>
-          <p>Notes App</p>
+          <p className={styles.res_header}>Notes App</p>
           <ul>
             <li>ReactJS</li>
             <li>DraftJS</li>
           </ul>
-          <p>Mini-Arcade</p>
+          <p className={styles.res_header}>Mini-Arcade</p>
           <ul>
             <li>ReactJS</li>
           </ul>
-          <p>HelpMeHelpYou</p>
+          <p className={styles.res_header}>HelpMeHelpYou</p>
           <ul>
             <li>Ruby on Rails</li>
             <li>ReactJS</li>
           </ul>
-          <p>Staffify</p>
+          <p className={styles.res_header}>Staffify</p>
           <ul>
             <li>ReactJS</li>
             <li>RouterV6</li>
@@ -72,23 +82,27 @@ export default function ResumeDoc() {
         </div>
         <div className={styles.resume_section}>
           <h3>Education</h3>
-          <p className={styles.education}>Web Development Diploma</p>
+          <p className={styles.res_header}>Web Development Diploma</p>
           <p>Lighthouse Labs | 2020-2021</p>
-          <p className={styles.education}>Bachelor of Arts, Legal Studies</p>
+          <p className={styles.res_header}>Bachelor of Arts, Legal Studies</p>
           <p>Carleton University | 2012 - 2016</p>
         </div>
         <div className={styles.resume_section}>
           <h3>Work Experience</h3>
+          <p className={styles.res_header}>
+            CREATION CRATE INC. | AUGUST 2021 - DECEMBER 2021
+          </p>
           <p className={styles.education}>Junior Developer</p>
-          <p>CREATION CRATE INC. | AUGUST 2021 - DECEMBER 2021</p>
           <ul>
             <li>
               Assisted with the development and deployment of new product pages
               concerning new product lines and seasonal promotions.
             </li>
-          </ul>
+          </ul>{" "}
+          <p className={styles.res_header}>
+            RBC CAPITAL MARKETS | SUMMER 2014 - 2015
+          </p>
           <p className={styles.education}>Summer Student</p>
-          <p>RBC CAPITAL MARKETS | SUMMER 2014 - 2015</p>
           <ul>
             <li>
               Responsible for maintaining trading documents, communicating and
