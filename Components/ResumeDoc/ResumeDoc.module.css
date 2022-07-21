@@ -44,6 +44,7 @@
 
 .res_header {
   font-family: "Play", sans-serif;
+  margin-right: 5px;
 }
 
 #resume_name {
@@ -56,6 +57,11 @@
 
 .resume_link {
   font-family: "EB Garamond", serif;
+}
+
+.skill_section {
+  display: flex;
+  height: 50px;
 }
 
 @media print {

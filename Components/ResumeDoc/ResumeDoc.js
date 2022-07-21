@@ -9,8 +9,8 @@ export default function ResumeDoc() {
           <h2 id={styles.resume_name}>Connor Mackay</h2>
           <h6>Toronto Web Developer</h6>
           <p className={styles.res_header}>Contact</p>
-            <p className={styles.res_contact}>647-393-4597</p>
-            <p className={styles.res_contact}>connor.mackay@gmail.com</p>
+          <p className={styles.res_contact}>647-393-4597</p>
+          <p className={styles.res_contact}>connor.mackay@gmail.com</p>
           <div className={styles.links}>
             <Link
               className={styles.resume_link}
@@ -62,23 +62,38 @@ export default function ResumeDoc() {
         </div>
         <div className={styles.resume_section}>
           <h3>Skills</h3>
-          <p>
-            <strong>Languages:</strong> Javascript, Ruby, HTML, CSS
-          </p>
-          <p>
-            <strong>Libraries & Frameworks:</strong> React, Rails Ajax, Express,
-            Jquery, ActiveRecord, SASS Socket.io, NextJS
-          </p>
-          <p>
-            <strong>Testing: </strong> Mocha/Chai, Jest, Cypress
-          </p>
-          <p>
-            <strong>Databases and CMS: </strong> SQL, PSQL , GraphQL
-          </p>
-          <p>
-            <strong>Source & Project Management: </strong> Github, GitKraken,
-            Jira, Jenkins
-          </p>
+          <div className={styles.skill_section}>
+            <p className={styles.res_header}>
+              <strong>Languages: </strong>
+            </p>
+            <p> Javascript, Ruby, HTML, CSS</p>
+          </div>
+          <div className={styles.skill_section}>
+            <p className={styles.res_header}>
+              <strong>Libraries & Frameworks:</strong>
+            </p>
+            <p>
+              React, Rails Ajax, Express, Jquery, ActiveRecord, SASS Socket.io,
+              NextJS
+            </p>
+          </div>
+          <div className={styles.skill_section}>
+            <p className={styles.res_header}>
+              <strong>Testing: </strong>
+            </p>
+            <p> Mocha/Chai, Jest, Cypress</p>
+          </div>
+          <div className={styles.skill_section}>
+            <p className={styles.res_header}>
+              <strong>Databases and CMS: </strong>
+            </p>
+            <p> SQL, PSQL , GraphQL</p>
+          </div>
+          <div className={styles.skill_section}>
+            <p className={styles.res_header}>
+            <strong>Source & Project Management:</strong> </p> <p>Github, GitKraken,
+            Jira, Jenkins</p>
+          </div>
         </div>
         <div className={styles.resume_section}>
           <h3>Education</h3>
