@@ -3,7 +3,6 @@ import styles from "./Skills.module.css";
 import { SKILLS_DATA } from "../../public/data/data";
 
 export default function Skills() {
-
   return (
     <div className={styles.skills}>
       <h2 className={styles.skills_header}>Skills</h2>
