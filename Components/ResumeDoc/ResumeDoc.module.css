@@ -42,9 +42,15 @@
   margin-top: 20px;
 }
 
+.project_list {
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
 .res_header {
   font-family: "Play", sans-serif;
   margin-right: 5px;
+  margin-bottom: 0px;
 }
 
 #resume_name {

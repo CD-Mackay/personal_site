@@ -29,21 +29,21 @@ export default function ResumeDoc() {
         <div className={styles.projects}>
           <h6>Projects</h6>
           <p className={styles.res_header}>Notes App</p>
-          <ul>
+          <ul className={styles.project_list}>
             <li>ReactJS</li>
             <li>DraftJS</li>
           </ul>
           <p className={styles.res_header}>Mini-Arcade</p>
-          <ul>
+          <ul className={styles.project_list}>
             <li>ReactJS</li>
           </ul>
           <p className={styles.res_header}>HelpMeHelpYou</p>
-          <ul>
+          <ul className={styles.project_list}>
             <li>Ruby on Rails</li>
             <li>ReactJS</li>
           </ul>
           <p className={styles.res_header}>Staffify</p>
-          <ul>
+          <ul className={styles.project_list}>
             <li>ReactJS</li>
             <li>RouterV6</li>
           </ul>
@@ -108,7 +108,7 @@ export default function ResumeDoc() {
             CREATION CRATE INC. | AUGUST 2021 - DECEMBER 2021
           </p>
           <p className={styles.education}>Junior Developer</p>
-          <ul>
+          <ul className={styles.project_list}>
             <li>
               Assisted with the development and deployment of new product pages
               concerning new product lines and seasonal promotions.
@@ -118,7 +118,7 @@ export default function ResumeDoc() {
             RBC CAPITAL MARKETS | SUMMER 2014 - 2015
           </p>
           <p className={styles.education}>Summer Student</p>
-          <ul>
+          <ul className={styles.project_list}>
             <li>
               Responsible for maintaining trading documents, communicating and
               explaining changes to stakeholders as well as tracking progress on
