@@ -11,7 +11,7 @@ export const PROJECT_DATA = [
     name: "Notes App",
     tech: "ReactJS, DraftJS, Axios, Express, PostgreSQL",
     description:
-      "Intended as a practice project to expand my knowledge of React libraries, the Notes App uses DraftJS to allow rich text-editing. Notes can be categorized and searched for based on tags.",
+      "The Notes App uses DraftJS library to allow rich text-editing. Notes can be categorized and searched for based on tags.",
     url: "https://github.com/CD-Mackay/notes-app",
     image: "/notes_app_screen.png",
   },
@@ -19,7 +19,7 @@ export const PROJECT_DATA = [
     name: "Mini Arcade",
     tech: "ReactJS",
     description:
-      "Working with React in a way I am unfamiliar with. Inspired by a practice tic-tac-toe project I made, the concept was expanded into a series of mini-games",
+    "Inspired by a tic-tac-toe javascript challenge, this application allows the user to play a series of classic mini games.",
     url: "https://github.com/CD-Mackay/mini-arcade",
     image: "/mini_arcade_screen.png",
   },
@@ -27,7 +27,7 @@ export const PROJECT_DATA = [
     name: "HelpMeHelpYou",
     tech: "ReactJs, Axios, Rails, PostgreSQL, Socket.io",
     description:
-      "Collaborated with Alan Mak and Justin Chan. HelpMeHelpYou is a community based app, allowing helpful neighbors to connect with their neighbors in need. Features a websocket based chat room.",
+      "Collaborated with Alan Mak and Justin Chan. HelpMeHelpYou allows helpful neighbors to connect with their neighbors in need. Features a websocket chat room.",
     url: "https://github.com/alan-mak/HelpMeHelpYou",
     image: "/helpmehelpyou.png",
   },
