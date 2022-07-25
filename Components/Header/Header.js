@@ -16,7 +16,7 @@ export default function Header() {
         )}
       </div>
       <nav className={styles.navigation}>
-        {router.pathname === "/resume" && (
+        {router.pathname !== "/" && (
           <div className={styles.link}>
             <Link href="/">Home</Link>
           </div>

@@ -248,7 +248,8 @@ const Game = () => {
       {gamePhase === "play" && (
         <div>
           <div id={styles.gameHeader}>
-            <h4 className={styles.ticHeader}>The Game is Afoot!</h4>
+            <h4 className={styles.ticHeader}>Welcome to Tic-Tac-Toe</h4>
+            <p>Life is stressful, why not play a game?</p>
             {victory == 0 && !computerPlayer && (
               <p>Its currently Player {playerTurn}s turn</p>
             )}
