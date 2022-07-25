@@ -20,7 +20,7 @@ const GameSquare = ({index, setSquareSelected, value}) => {
   }, [value]);
   
   return (
-    <div className={styles.squareWrapper} id={`game-square-${index}`} onClick={handleSquareSelect}>
+    <div className={styles.squareWrapper} id={`styles.game-square-${index}`} onClick={handleSquareSelect}>
       {value && <p className={styles.squareText}>{value === 1 ? "x" : "o"}</p>}
       </div>
   )

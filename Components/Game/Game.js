@@ -239,7 +239,7 @@ const Game = () => {
       {gamePhase === "setup" && (
         <div id={styles.setupBox}>
           <h4 className={styles.ticHeader}>Select Opponent:</h4>
-          <div id="button-wrapper">
+          <div id={styles.buttonWrapper}>
             <button onClick={startGame} className={styles.button}>Human</button>
             <button onClick={startComputerGame} className={styles.button}>Robot</button>
           </div>
