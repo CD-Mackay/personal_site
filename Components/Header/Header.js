@@ -5,7 +5,6 @@ import { useRouter } from "next/router";
 export default function Header() {
   const router = useRouter();
 
-
   return (
     <div className={styles.header}>
       <div className={styles.header_content}>
@@ -23,8 +22,13 @@ export default function Header() {
           </div>
         )}
         {router.pathname === "/" && (
-          <div className={styles.link}>
-            <Link href="/resume">Resume</Link>
+          <div className={styles.linkWrapper}>
+            <div className={styles.link}>
+              <Link href="/resume">Resume</Link>
+            </div>
+            <div className={styles.link}>
+              <Link href="/tictactoe">Game</Link>
+            </div>
           </div>
         )}
       </nav>

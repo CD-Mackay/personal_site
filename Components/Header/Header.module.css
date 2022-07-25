@@ -35,6 +35,10 @@
   border-radius: 5px;
 }
 
+.linkWrapper {
+  display: flex;
+}
+
 @media print {
   .header { display: none !important;}
 }
