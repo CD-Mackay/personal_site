@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
-import GameSquare from "./atoms/gameSquare/GameSquare";
-import Button from "../../atoms/Button/Button";
-import UpdateRecords from "../../../utilities/UpdateRecords";
+import GameSquare from "./GameSquare/GameSquare";
 
 import styles from './Game.module.css';
 
@@ -19,8 +17,6 @@ const Game = () => {
     draw: 0,
   });
 
-  const { robitNames, pickRobotName } = OpponentNames;
-  const { handleUpdateRecord } = UpdateRecords;
 
   const squares = ["", "", "", "", "", "", "", "", ""];
 
@@ -47,7 +43,7 @@ const Game = () => {
 
   const startComputerGame = () => {
     setComputerPlayer(true);
-    setOpponentName(pickRobotName(robitNames));
+    setOpponentName("Bender");
     startGame();
   };
 
@@ -250,7 +246,7 @@ const Game = () => {
   return (
     <section className={styles.gameWrapper}>
       {gamePhase === "setup" && (
-        <div id={styles.setup-box}>
+        <div id={styles.setupBox}>
           <h4 className={styles.ticHeader}>Select Opponent:</h4>
           <div id="button-wrapper">
             <button onClick={startGame} className={styles.button}>Human</button>
@@ -260,7 +256,7 @@ const Game = () => {
       )}
       {gamePhase === "play" && (
         <div>
-          <div id={styles.game-header}>
+          <div id={styles.gameHeader}>
             <h4 className={styles.ticHeader}>The Game is Afoot!</h4>
             {victory == 0 && !computerPlayer && (
               <p>Its currently Player {playerTurn}s turn</p>
@@ -271,10 +267,10 @@ const Game = () => {
             {computerPlayer && <p>Playing against {opponentName}</p>}
             {victory == 3 && <p>Draw</p>}
           </div>
-          <div className={styles.game-grid}>{gameBoard()}</div>
-          <div className={styles.game-options}>
-            <Button message="Reset Game" onClick={() => resetGame()} />
-            <Button message="Quit Game" onClick={() => quitGame()} />
+          <div className={styles.gameGrid}>{gameBoard()}</div>
+          <div className={styles.gameOptions}>
+            <button onClick={resetGame}>Reset Game</button>
+            <button onClick={quitGame}>Quit Game</button>
           </div>
         </div>
       )}

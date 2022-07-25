@@ -1,0 +1,26 @@
+.squareWrapper {
+  border: 1px solid #00ffff;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.squareText {
+  font-size: 46px;
+}
+.squareWrapper:hover {
+  background: #8d1b1f;
+}
+
+@media (min-width: 576px) {
+  .squareWrapper {
+    height: 90px;
+  }
+}
+
+@media (min-width: 768px) {
+  .squareWrapper {
+    height: 150px;
+  }
+}
