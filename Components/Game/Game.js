@@ -11,11 +11,6 @@ const Game = () => {
   const [victory, setVictory] = useState(0);
   const [computerPlayer, setComputerPlayer] = useState(false);
   const [opponentName, setOpponentName] = useState("");
-  const [record, setRecord] = useState({
-    player_one: 0,
-    player_two: 0,
-    draw: 0,
-  });
 
 
   const squares = ["", "", "", "", "", "", "", "", ""];
@@ -162,9 +157,6 @@ const Game = () => {
         if (a.element === b.element && b.element === c.element) {
           if (playerTurn !== 0) {
             setVictory(playerTurn);
-            playerTurn === 1
-              ? setRecord(handleUpdateRecord("player_one", record))
-              : setRecord(handleUpdateRecord("player_two", record));
           }
           break;
         }
@@ -174,7 +166,6 @@ const Game = () => {
         }
         if (!array.includes("")) {
           setVictory(3);
-          setRecord(handleUpdateRecord("draw", record));
         }
       }
     }

@@ -5,6 +5,8 @@ import styles from './GameSquare.module.css';
 const GameSquare = ({index, setSquareSelected, value}) => {
 
 
+  const [opacity, setOpacity] = useState(0);
+
  const handleSquareSelect = () => {
    if (value === "") {
     setSquareSelected(index);
