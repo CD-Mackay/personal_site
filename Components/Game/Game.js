@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import GameSquare from "./GameSquare/GameSquare";
+import Button from "../Button/Button";
 
 import styles from './Game.module.css';
 
@@ -241,8 +242,10 @@ const Game = () => {
         <div id={styles.setupBox}>
           <h4 className={styles.ticHeader}>Select Opponent:</h4>
           <div id={styles.buttonWrapper}>
-            <button onClick={startGame} className={styles.button}>Human</button>
-            <button onClick={startComputerGame} className={styles.button}>Robot</button>
+            {/* <button onClick={startGame} className={styles.button}>Human</button>
+            <button onClick={startComputerGame} className={styles.button}>Robot</button> */}
+            <Button onClick={startGame} text="Human" />
+            <Button onClick={startComputerGame} text="Robot" /> 
           </div>
         </div>
       )}
