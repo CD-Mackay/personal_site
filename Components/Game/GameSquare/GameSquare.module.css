@@ -1,5 +1,5 @@
 .squareWrapper {
-  border: 1px solid #00ffff;
+  border: 1px solid black;
   height: 50px;
   width: 100%;
   display: flex;
@@ -8,6 +8,7 @@
 }
 .squareText {
   font-size: 46px;
+  color: #9f4b94;
 }
 .squareWrapper:hover {
   background: #8d1b1f;
