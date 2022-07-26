@@ -2,7 +2,7 @@
   background-color: black;
   bottom: 0;
   height: 40px;
-  position: relative;
+  position: fixed;
   width: 100vw;
   color: white;
   display: flex;
