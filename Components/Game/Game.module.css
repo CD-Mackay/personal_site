@@ -37,6 +37,7 @@
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 0px;
   margin-bottom: 20px;
+  border: 1px solid black;
 }
 .gameOptions {
   display: flex;
