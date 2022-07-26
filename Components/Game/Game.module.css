@@ -27,10 +27,6 @@
   font-size: 32px;
 }
 
-/* p {
-  font-size: 22px;
-  padding: 5px;
-} */
 .gameGrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

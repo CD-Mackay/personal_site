@@ -2,13 +2,13 @@ import React, { useEffect, useState } from 'react';
 
 import styles from './GameSquare.module.css';
 
-const GameSquare = ({index, setSquareSelected, value}) => {
+const GameSquare = ({index, setSquareSelected, value, victory}) => {
 
 
   const [opacity, setOpacity] = useState(0);
 
  const handleSquareSelect = () => {
-   if (value === "") {
+   if (value === "" && victory === 0) {
     setSquareSelected(index);
    }
   };

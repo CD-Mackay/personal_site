@@ -223,6 +223,7 @@ const Game = () => {
           value={element.element}
           playerTurn={playerTurn}
           setSquareSelected={setSquareSelected}
+          victory={victory}
         />
       );
     });
