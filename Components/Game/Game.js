@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import GameSquare from "./GameSquare/GameSquare";
 import Button from "../Button/Button";
 
-import styles from './Game.module.css';
+import styles from "./Game.module.css";
 
 const Game = () => {
   const [gamePhase, setGamePhase] = useState("setup");
@@ -12,7 +12,6 @@ const Game = () => {
   const [victory, setVictory] = useState(0);
   const [computerPlayer, setComputerPlayer] = useState(false);
   const [opponentName, setOpponentName] = useState("");
-
 
   const squares = ["", "", "", "", "", "", "", "", ""];
 
@@ -199,7 +198,7 @@ const Game = () => {
   const resetGame = () => {
     setGamePhase("setup");
     setGame(
-      squares.map((element, index) => {
+       squares.map((element, index) => {
         return { element, index, score: 0 };
       })
     );
@@ -242,10 +241,8 @@ const Game = () => {
         <div id={styles.setupBox}>
           <h4 className={styles.ticHeader}>Select Opponent:</h4>
           <div id={styles.buttonWrapper}>
-            {/* <button onClick={startGame} className={styles.button}>Human</button>
-            <button onClick={startComputerGame} className={styles.button}>Robot</button> */}
             <Button onClick={startGame} text="Human" />
-            <Button onClick={startComputerGame} text="Robot" /> 
+            <Button onClick={startComputerGame} text="Robot" />
           </div>
         </div>
       )}
@@ -265,8 +262,8 @@ const Game = () => {
           </div>
           <div className={styles.gameGrid}>{gameBoard()}</div>
           <div className={styles.gameOptions}>
-            <button onClick={resetGame}>Reset Game</button>
-            <button onClick={quitGame}>Quit Game</button>
+            <Button onClick={resetGame} text="Reset Game" />
+            <Button onClick={quitGame} text="Quit Game" />
           </div>
         </div>
       )}
