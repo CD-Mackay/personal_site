@@ -1,7 +1,6 @@
 import ProjectCard from "../ProjectCard/ProjectCard";
 import styles from "./Projects.module.css";
 import { PROJECT_DATA } from "../../public/data/data";
-
 export default function Projects() {
 
   return (

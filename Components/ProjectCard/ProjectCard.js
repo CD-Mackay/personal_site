@@ -4,6 +4,7 @@ import Link from "next/link";
 import { BsGithub } from "react-icons/bs";
 
 export default function ProjectCard({ name, tech, url, image, description }) {
+
   return (
     <div className={styles.card}>
       <div className={styles.project_wrapper}>
@@ -12,6 +13,7 @@ export default function ProjectCard({ name, tech, url, image, description }) {
             src={image}
             alt="application screenshot"
             layout="responsive"
+            unoptimized={true}
             width={400}
             height={200}
           />

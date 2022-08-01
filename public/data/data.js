@@ -5,7 +5,7 @@ export const PROJECT_DATA = [
     description:
       "A human resources app for managing employees and teams. Employees can be assigned to projects, flagged for performance and affiliated with technical skills.",
     url: "https://github.com/CD-Mackay/staffing-app",
-    image: "/staffing_app_screen.png",
+    image: "/staffing_app_screen-min.jpg",
   },
   {
     name: "Notes App",
@@ -13,7 +13,7 @@ export const PROJECT_DATA = [
     description:
       "The Notes App uses DraftJS library to allow rich text-editing. Notes can be categorized and searched for based on tags.",
     url: "https://github.com/CD-Mackay/notes-app",
-    image: "/notes_app_screen.png",
+    image: "/notes_app_screen-min.jpg",
   },
   {
     name: "Mini Arcade",
@@ -21,7 +21,7 @@ export const PROJECT_DATA = [
     description:
     "Inspired by a tic-tac-toe javascript challenge, this application allows the user to play a series of classic mini games.",
     url: "https://github.com/CD-Mackay/mini-arcade",
-    image: "/mini_arcade_screen.png",
+    image: "/mini_arcade_screen-min.jpg",
   },
   {
     name: "HelpMeHelpYou",
@@ -29,7 +29,7 @@ export const PROJECT_DATA = [
     description:
       "Collaborated with Alan Mak and Justin Chan. HelpMeHelpYou allows helpful neighbors to connect with their neighbors in need. Features a websocket chat room.",
     url: "https://github.com/alan-mak/HelpMeHelpYou",
-    image: "/helpmehelpyou.png",
+    image: "/helpmehelpyou-min.jpg",
   },
 ];
 
