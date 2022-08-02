@@ -61,12 +61,14 @@ const Game = () => {
           </div>
         </div>
       )}
-        <p id={styles.subText}>
-            *More games available in the Mini-Arcade app.
-            <Link href="/">
-              <BsGithub fontSize="16px" />
-            </Link>
-          </p>
+      <p id={styles.subText}>
+        *More games available in the Mini-Arcade app.
+        <Link href="https://github.com/CD-Mackay/mini-arcade">
+          <a target="_blank">
+            <BsGithub fontSize="18px" />
+          </a>
+        </Link>
+      </p>
       {gamePhase === "play" && (
         <div>
           {victory === 0 && !computerPlayer && (
