@@ -39,7 +39,7 @@ const Game = () => {
   };
   useEffect(() => {
     updateBoard(squareSelected);
-    if (victory === 0) {
+    if (victory === 0 && playerTurn !== 0) {
       handleTurn();
     }
   }, [squareSelected, gamePhase, victory]);

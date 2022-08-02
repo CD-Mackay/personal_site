@@ -201,6 +201,7 @@ export function GameContextProvider(props) {
     );
     setVictory(0);
     setGamePhase("play");
+    setSquareSelected(null);
     setPlayerTurn(1);
   };
 
@@ -208,6 +209,7 @@ export function GameContextProvider(props) {
     setGamePhase("setup");
     setGame(squares);
     setComputerPlayer(false);
+    setSquareSelected(null);
     setVictory(0);
   };
 
