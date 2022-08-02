@@ -42,6 +42,15 @@
   margin-bottom: 20px;
 }
 
+#gameHeader {
+  margin-bottom: 20px;
+}
+
+#subText {
+  color: gray;
+  font-size: 18px;
+}
+
 
 
 @media (min-width: 768px) {

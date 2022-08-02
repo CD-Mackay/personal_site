@@ -2,6 +2,8 @@ import React, { useEffect, useState, useContext } from "react";
 import GameSquare from "./GameSquare/GameSquare";
 import Button from "../Button/Button";
 import GameContext from "../Context/GameContext";
+import Link from "next/link";
+import { BsGithub } from "react-icons/bs";
 
 import styles from "./Game.module.css";
 
@@ -46,6 +48,10 @@ const Game = () => {
 
   return (
     <section className={styles.gameWrapper}>
+      <div id={styles.gameHeader}>
+        <h4 className={styles.ticHeader}>Welcome to Tic-Tac-Toe</h4>
+        <p>Life is stressful, hiring is stressful. Why not play a game?</p>
+      </div>
       {gamePhase === "setup" && (
         <div id={styles.setupBox}>
           <h4 className={styles.ticHeader}>Select Opponent:</h4>
@@ -55,20 +61,22 @@ const Game = () => {
           </div>
         </div>
       )}
+        <p id={styles.subText}>
+            *More games available in the Mini-Arcade app.
+            <Link href="/">
+              <BsGithub fontSize="16px" />
+            </Link>
+          </p>
       {gamePhase === "play" && (
         <div>
-          <div id={styles.gameHeader}>
-            <h4 className={styles.ticHeader}>Welcome to Tic-Tac-Toe</h4>
-            <p>Life is stressful, why not play a game?</p>
-            {victory == 0 && !computerPlayer && (
-              <p>Its currently Player {playerTurn}s turn</p>
-            )}
-            {(victory == 1 || victory == 2) && (
-              <p>Player {victory} is victorious! </p>
-            )}
-            {computerPlayer && <p>Playing against {opponentName}</p>}
-            {victory == 3 && <p>Draw</p>}
-          </div>
+          {victory === 0 && !computerPlayer && (
+            <p>Its currently Player {playerTurn}s turn</p>
+          )}
+          {(victory == 1 || victory == 2) && (
+            <p>Player {victory} is victorious! </p>
+          )}
+          {computerPlayer && <p>Playing against {opponentName}</p>}
+          {victory == 3 && <p>Draw</p>}
           <div className={styles.gameGrid}>{gameBoard()}</div>
           <div className={styles.gameOptions}>
             <Button onClick={resetGame} text="Reset Game" />
