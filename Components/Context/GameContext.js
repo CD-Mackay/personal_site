@@ -152,7 +152,7 @@ export function GameContextProvider(props) {
           continue;
         }
         if (a.element === b.element && b.element === c.element) {
-          if (playerTurn !== 0) {
+          if (playerTurn !== 0 && gamePhase === "play") {
             setVictory(playerTurn);
           }
           break;
@@ -208,9 +208,9 @@ export function GameContextProvider(props) {
   const quitGame = () => {
     setGamePhase("setup");
     setGame(squares);
+    setVictory(0);
     setComputerPlayer(false);
     setSquareSelected(null);
-    setVictory(0);
   };
 
   const context = {
