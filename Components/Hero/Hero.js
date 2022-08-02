@@ -6,7 +6,7 @@ export default function Hero() {
       <div className={styles.text}>
         <h1>Connor Mackay&#39;s Site</h1>
         <p className={styles.hero_body}>
-          I am a front-end developer specializing in ReactJs and other front-end
+          I am a full-stack developer specializing in ReactJs and other front-end
           technology. I have experience working with teams of a wide variety of
           disciplines and skills levels, and believe I am able to contribute in
           any professional environment.
