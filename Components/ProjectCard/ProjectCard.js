@@ -25,7 +25,7 @@ export default function ProjectCard({ name, tech, url, image, description }) {
       </div>
       <div className={styles.anchor}>
         <Link href={url} target="_blank" passHref>
-          <a>
+          <a target="_blank">
             <BsGithub fontSize="22px" />
           </a>
         </Link>

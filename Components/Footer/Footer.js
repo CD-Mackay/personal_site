@@ -8,12 +8,12 @@ export default function Footer() {
       <div className={styles.content}>
         <p className={styles.footer_text}>Connor Mackay</p>
         <Link href="https://github.com/CD-Mackay">
-          <a>
+          <a target="_blank">
             <AiFillGithub fontSize="24px" />
           </a>
         </Link>
         <Link href="https://www.linkedin.com/in/connor-mackay-800992bb/">
-          <a>
+          <a target="_blank">
             <AiFillLinkedin fontSize="24px" />
           </a>
         </Link>
