@@ -17,7 +17,7 @@ export const PROJECT_DATA = [
   },
   {
     name: "Mini Arcade",
-    tech: "ReactJS",
+    tech: "ReactJS, Cypress",
     description:
     "Inspired by a tic-tac-toe javascript challenge, this application allows the user to play a series of classic mini games.",
     url: "https://github.com/CD-Mackay/mini-arcade",
