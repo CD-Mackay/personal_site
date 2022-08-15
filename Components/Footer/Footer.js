@@ -1,6 +1,12 @@
-import styles from "./Footer.module.css";
+// Framework Imports
 import Link from "next/link";
+
+// Asset Imports
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+
+// CSS Imports
+import styles from "./Footer.module.css";
+
 
 export default function Footer() {
   return (

@@ -8,15 +8,19 @@
   - [Component.module.css] - Contains the styling for each Game/Component
 
   - Imports are organized as follows:
-    - Framework Imports: React and other frameworks
+    - Framework Imports: NextJs features and other libraries
     - Component Imports
     - Asset Imports: Icons and imported data
     - CSS Imports: Styled components and other CSS Assets
+  - Each component shall have a brief description of the components purpose.
+
+  - Note: Js. files for individual pages do not contain module.css files, global styling is handled through globals.css.
+  - Note: Game logic for Tic-Tac-Toe can be found in src/Components/Context/GameContext.js
 
  #### Example of Component
 
  ```
- // Library Imports
+ // Framework Imports
 import React from 'react';
 
 
@@ -24,6 +28,10 @@ import React from 'react';
 import StyledExample from './StyledExample';
 
 const Example = () => {
+
+  /**
+  * An Example Component
+  */
   return (
     <StyledExample>
       <p>I am Example</p>

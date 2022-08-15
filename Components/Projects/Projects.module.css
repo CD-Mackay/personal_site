@@ -1,11 +1,13 @@
-.projects {
-  margin: 0 auto;
-}
 .grid {
   display: grid;
   grid-template-columns: 1fr;
   margin-bottom: 60px;
 }
+
+.projects {
+  margin: 0 auto;
+}
+
 
 @media (min-width: 576px) {
   .grid {
@@ -21,11 +23,11 @@
 }
 
 @media (min-width: 992px) {
-  .projects {
-    max-width: 80vw;
-  }
-
   .grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .projects {
+    max-width: 80vw;
   }
 }

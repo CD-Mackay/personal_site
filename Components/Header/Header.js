@@ -1,10 +1,16 @@
+// Framework Imports
 import Link from "next/link";
-import styles from "./Header.module.css";
 import { useRouter } from "next/router";
+
+// CSS Imports
+import styles from "./Header.module.css";
 
 export default function Header() {
   const router = useRouter();
 
+  /**
+   * Renders the Header component. Selectively renders links depending on location.
+   */
   return (
     <div className={styles.header}>
       <div className={styles.header_content}>

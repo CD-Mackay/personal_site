@@ -1,10 +1,19 @@
-import styles from "./ProjectCard.module.css";
-import { forwardRef } from "react";
+// Framework Imports
 import Image from "next/image";
 import Link from "next/link";
+
+// Asset Imports
 import { BsGithub } from "react-icons/bs";
 
+// CSS Imports
+import styles from "./ProjectCard.module.css";
+
 export default function ProjectCard({ name, tech, url, image, description }) {
+
+  /**
+   * Renders card for individual projects in Projects grid located on homepage. 
+   * * Contains anchor links to codebase for each project
+   */
   return (
     <div className={styles.card}>
       <div className={styles.project_wrapper}>

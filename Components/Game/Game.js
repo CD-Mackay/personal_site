@@ -1,10 +1,18 @@
-import React, { useEffect, useState, useContext } from "react";
+// Framework Imports
+import Link from "next/link";
+
+// Library Imports
+import React, { useEffect, useContext } from "react";
+
+// Component Imports
 import GameSquare from "./GameSquare/GameSquare";
 import Button from "../Button/Button";
 import GameContext from "../Context/GameContext";
-import Link from "next/link";
+
+// Asset Imports
 import { BsGithub } from "react-icons/bs";
 
+// CSS Imports
 import styles from "./Game.module.css";
 
 const Game = () => {
@@ -46,6 +54,9 @@ const Game = () => {
     }
   }, [squareSelected, gamePhase, victory]);
 
+  /**
+   * Holds components neccessary for Tic-Tac-Toe, imports game logic from <GameContext />
+   */
   return (
     <section className={styles.gameWrapper}>
       <div id={styles.gameHeader}>

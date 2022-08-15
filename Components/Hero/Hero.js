@@ -1,6 +1,11 @@
+// CSS Imports
 import styles from "./Hero.module.css";
 
 export default function Hero() {
+
+  /**
+   * Renders Hero Component for homepage
+   */
   return (
     <div className={styles.hero}>
       <div className={styles.text}>

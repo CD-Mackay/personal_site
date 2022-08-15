@@ -1,35 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Play:wght@400;700&display=swap");
 
-.page {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  padding: 0px 40px 0px 40px;
-}
-
-.projects {
-  text-align: left;
-  margin-left: 85px;
-}
-
-.education {
-  font-weight: 600;
-}
-
-.resume_section {
-  margin-bottom: 40px;
-}
-
 .contact {
   background-color: #2a3e5f;
   color: white;
-  text-align: right;
-  padding: 20px;
   display: flex;
   flex-direction: column;
+  padding: 20px;
+  text-align: right;
 }
 
 .contact_details {
   margin-bottom: 170px;
+}
+
+.education {
+  font-weight: 600;
 }
 
 .experience {
@@ -42,19 +27,30 @@
   margin-top: 20px;
 }
 
+.page {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 0px 40px 0px 40px;
+}
+
+.projects {
+  margin-left: 85px;
+  text-align: left;
+}
+
 .project_list {
-  margin-top: 5px;
   margin-bottom: 30px;
+  margin-top: 5px;
+}
+
+.resume_section {
+  margin-bottom: 40px;
 }
 
 .res_header {
   font-family: "Play", sans-serif;
-  margin-right: 5px;
   margin-bottom: 0px;
-}
-
-#resume_name {
-  color: white;
+  margin-right: 5px;
 }
 
 .res_contact {
@@ -68,6 +64,10 @@
 .skill_section {
   display: flex;
   height: 50px;
+}
+
+#resume_name {
+  color: white;
 }
 
 @media print {

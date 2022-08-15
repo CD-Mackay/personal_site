@@ -1,8 +1,18 @@
+// Component Imports
 import ProjectCard from "../ProjectCard/ProjectCard";
-import styles from "./Projects.module.css";
+
+// Asset Imports
 import { PROJECT_DATA } from "../../public/data/data";
+
+// CSS Imports
+import styles from "./Projects.module.css";
+
 export default function Projects() {
 
+  /**
+   * Grid component for displaying completed projects. Located on homepage.
+   * * Imports data from public/data and maps to produce <ProjectCard /> Components
+   */
   return (
     <div className={styles.projects}>
       <h2>Projects</h2>
