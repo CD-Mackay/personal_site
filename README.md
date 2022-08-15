@@ -1,34 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Introduction
+  - Welcome to the codebase for my personal website. To view the site itself, click [here](https://connor-mackay-site.herokuapp.com/)
 
-## Getting Started
+### Organization
 
-First, run the development server:
+  - Each component consists of two files, a .js file containing attached functions and JSX layout, and a module.css file containign styling.
+  - [Component.js] - Features the layout and list of components used in each game.
+  - [Component.module.css] - Contains the styling for each Game/Component
 
-```bash
-npm run dev
-# or
-yarn dev
+  - Imports are organized as follows:
+    - Framework Imports: React and other frameworks
+    - Component Imports
+    - Asset Imports: Icons and imported data
+    - CSS Imports: Styled components and other CSS Assets
+
+ #### Example of Component
+
+ ```
+ // Library Imports
+import React from 'react';
+
+
+// CSS Imports
+import StyledExample from './StyledExample';
+
+const Example = () => {
+  return (
+    <StyledExample>
+      <p>I am Example</p>
+    </StyledExample>
+  )
+};
+
+export default Example;
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ #### Features
+  - This site is divided into three pages.
+    - / - Homepage: Contains a brief introduction, a catalog of recently completed projects and a list of skills.
+    - /resume - Resume page: Contains an html version of my resume, with instructions for saving as PDF
+    - /game - Tic-Tac-Toe: A sample of the Mini-Arcade application (codebase [here](https://github.com/CD-Mackay/mini-arcade)). Play a game of Tic-Tac-Toe against a colleague, or challenge my javascript based Tic-Tac-Toe algorithm. 
