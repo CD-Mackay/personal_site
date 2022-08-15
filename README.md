@@ -25,7 +25,7 @@ import React from 'react';
 
 
 // CSS Imports
-import StyledExample from './StyledExample';
+import styles from './Example.module.css'
 
 const Example = () => {
 
@@ -33,9 +33,9 @@ const Example = () => {
   * An Example Component
   */
   return (
-    <StyledExample>
+    <div className={styles.example}>
       <p>I am Example</p>
-    </StyledExample>
+    </div>
   )
 };
 
@@ -45,6 +45,6 @@ export default Example;
 
  #### Features
   - This site is divided into three pages.
-    - / - Homepage: Contains a brief introduction, a catalog of recently completed projects and a list of skills.
-    - /resume - Resume page: Contains an html version of my resume, with instructions for saving as PDF
-    - /game - Tic-Tac-Toe: A sample of the Mini-Arcade application (codebase [here](https://github.com/CD-Mackay/mini-arcade)). Play a game of Tic-Tac-Toe against a colleague, or challenge my javascript based Tic-Tac-Toe algorithm. 
+    - /: Homepage, Contains a brief introduction, a catalog of recently completed projects and a list of skills.
+    - /resume: Resume page, Contains an html version of my resume, with instructions for saving as PDF
+    - /game: Tic-Tac-Toe, A sample of the Mini-Arcade application (codebase [here](https://github.com/CD-Mackay/mini-arcade)). Play a game of Tic-Tac-Toe against a colleague, or challenge my javascript based Tic-Tac-Toe algorithm. 
