@@ -8,15 +8,17 @@
   - [Component.module.css] - Contains the styling for each Game/Component
 
   - Imports are organized as follows:
-    - Framework Imports: React and other frameworks
+    - Framework Imports: NextJs features and other libraries
     - Component Imports
     - Asset Imports: Icons and imported data
     - CSS Imports: Styled components and other CSS Assets
 
+  - Note: Js. files for individual pages do not contain module.css files, global styling is handled through globals.css.
+
  #### Example of Component
 
  ```
- // Library Imports
+ // Framework Imports
 import React from 'react';
 
 

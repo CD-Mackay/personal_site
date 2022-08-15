@@ -1,7 +1,9 @@
-import Footer from "../Components/Footer/Footer";
+// Framework Imports
+import Head from "next/head";
+
+// Component Imports
 import Header from "../Components/Header/Header";
 import ResumeDoc from "../Components/ResumeDoc/ResumeDoc";
-import Head from "next/head";
 
 export default function Resume() {
   return (

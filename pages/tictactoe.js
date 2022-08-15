@@ -1,10 +1,13 @@
-import Header from "../Components/Header/Header";
+// Framework Imports
 import Head from "next/head";
+
+// Component Imports
+import Header from "../Components/Header/Header";
 import Game from "../Components/Game/Game";
 import Footer from "../Components/Footer/Footer";
 import { GameContextProvider } from "../Components/Context/GameContext";
 
-export default function Resume() {
+export default function GamePage() {
   return (
     <GameContextProvider>
       <div>
