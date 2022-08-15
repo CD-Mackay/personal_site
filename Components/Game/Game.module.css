@@ -1,46 +1,55 @@
-.gameWrapper {
-  margin: 0 auto;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 80vw;
-}
-
-#buttonWrapper {
-  width: 60%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-}
 .button {
-  width: 150px;
-  padding: 2px;
   margin: 5px;
-}
-#setupBox {
-  display: flex;
-}
-.ticHeader {
-  padding: 10px;
-  font-size: 32px;
+  padding: 2px;
+  width: 150px;
 }
 
 .gameGrid {
+  border: 1px solid black;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 0px;
   margin-bottom: 20px;
-  border: 1px solid black;
 }
+
 .gameOptions {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-bottom: 20px;
 }
+
+.gameWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  width: 80vw;
+}
+
+
+
+.ticHeader {
+  font-size: 32px;
+  padding: 10px;
+}
+
+#buttonWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 60%;
+}
+
+#setupBox {
+  display: flex;
+}
+
+
+
 
 #subText {
   color: gray;

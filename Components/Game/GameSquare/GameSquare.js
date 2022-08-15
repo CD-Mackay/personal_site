@@ -1,5 +1,7 @@
+// Library Imports
 import React, { useEffect, useState } from 'react';
 
+// CSS Imports
 import styles from './GameSquare.module.css';
 
 const GameSquare = ({index, setSquareSelected, value, victory}) => {
@@ -19,6 +21,9 @@ const GameSquare = ({index, setSquareSelected, value, victory}) => {
     }
   }, [value]);
   
+  /**
+   * Component for rendering individual squares on Tic-Tac-Toe board. 
+   */
   return (
     <div className={styles.squareWrapper} id={`styles.game-square-${index}`} onClick={handleSquareSelect}>
       {value && <p className={styles.squareText}>{value === 1 ? "x" : "o"}</p>}

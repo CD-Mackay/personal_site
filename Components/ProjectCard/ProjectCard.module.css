@@ -1,24 +1,23 @@
-.card {
-  padding: 5px;
-  border: 1px solid gray;
-  border-radius: 5px;
-  margin: 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.anchor {
+  width: 30px;
 }
-
 
 .anchor:hover {
   cursor: pointer;
 }
 
-.anchor {
-  width: 30px;
+.card {
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 5px;
 }
 
 .image_wrapper {
   border-radius: 5px;
-  overflow: hidden;
   margin-bottom: 18px;
+  overflow: hidden;
 }

@@ -1,7 +1,15 @@
+// Framework Imports
 import Link from "next/link";
+
+// CSS Imports
 import styles from "./ResumeDoc.module.css";
 
 export default function ResumeDoc() {
+
+  /**
+   * Renders Resume component for /resume page.
+   * * Contains links to project codebases as well as social media presence.
+   */
   return (
     <div className={styles.page}>
       <div className={styles.contact}>

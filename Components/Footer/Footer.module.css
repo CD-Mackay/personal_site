@@ -1,19 +1,21 @@
+.content {
+  display: flex;
+}
+
 .footer {
   background-color: black;
   bottom: 0;
-  height: 40px;
-  position: fixed;
-  width: 100vw;
   color: white;
   display: flex;
   flex-direction: column;
+  height: 40px;
   justify-content: center;
+  position: fixed;
+  width: 100vw;
 }
 
 .footer_text {
   margin: 0px 10px 0px 10px;
 }
 
-.content {
-  display: flex;
-}
+

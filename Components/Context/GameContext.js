@@ -1,3 +1,4 @@
+// Library Imports
 import { createContext, useState } from "react";
 
 const GameContext = createContext({});
@@ -230,6 +231,9 @@ export function GameContextProvider(props) {
     quitGame,
   };
 
+  /**
+   * Context Component for running Tic-Tac-Toe Logic.
+   */
   return (
     <GameContext.Provider value={context}>
       {props.children}

@@ -4,9 +4,9 @@
 }
 
 .skills_grid {
-  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
+  margin: 0 auto;
 }
 
 .skills_header {
@@ -24,8 +24,8 @@
     max-width: 90vw;
   }
   .skills_grid {
-    max-width: 90vw;
     grid-template-columns: 1fr 1fr;
+    max-width: 90vw;
   }
 }
 
@@ -34,7 +34,7 @@
     width: 80vw;
   }
   .skills_grid {
-    width: 80vw;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 80vw;
   }
 }
