@@ -118,8 +118,8 @@ export default function ResumeDoc() {
           <p className={styles.education}>Junior Developer</p>
           <ul className={styles.project_list}>
             <li>
-              Assisted with the development and deployment of new product pages
-              concerning new product lines and seasonal promotions.
+              Developed and assisted in the deployment of new product pages
+              concerning new product lines and seasonal promotions, resulting in increased customer conversions.
             </li>
           </ul>{" "}
           <p className={styles.res_header}>
