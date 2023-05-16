@@ -37,7 +37,14 @@ export const PROJECT_DATA = [
     description:
       "Displays data related to climate change risks in a user-friendly manner. Enables data manipulation for end user to study various risks across industries.",
     url: "https://github.com/CD-Mackay/Risk_Visualization",
-    image: "/helpmehelpyou-min.jpg",
+    image: "/climate_risk_screenshot.png",
+  },
+  {
+    name: "Flask React MicroBlog",
+    tech: "Python3, Flask, Reactjs",
+    description: "My first Python application. This Twitter clone allows user to make and follow posts, as well as view user's profiles.",
+    url: "https://github.com/CD-Mackay/flask_react_microblog",
+    image: "/flask_react_microblog.png",
   },
 ];
 
