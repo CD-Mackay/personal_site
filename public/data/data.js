@@ -31,6 +31,14 @@ export const PROJECT_DATA = [
     url: "https://github.com/alan-mak/HelpMeHelpYou",
     image: "/helpmehelpyou-min.jpg",
   },
+  {
+    name: "Climate Risk Visualizer",
+    tech: "NextJs/Typescript, Leaflet.js, MaterialUI, Chartjs",
+    description:
+      "Displays data related to climate change risks in a user-friendly manner. Enables data manipulation for end user to study various risks across industries.",
+    url: "https://github.com/CD-Mackay/Risk_Visualization",
+    image: "/helpmehelpyou-min.jpg",
+  },
 ];
 
 export const SKILLS_DATA = [
