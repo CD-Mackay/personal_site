@@ -35,7 +35,7 @@ export const PROJECT_DATA = [
     name: "Climate Risk Visualizer",
     tech: "NextJs/Typescript, Leaflet.js, MaterialUI, Chartjs",
     description:
-      "Displays data related to climate change risks in a user-friendly manner. Enables data manipulation for end user to study various risks across industries.",
+      "Displays data related to climate change risks in a user-friendly manner. Enables data manipulation for end user to study various risks across industries, time and geographic location.",
     url: "https://github.com/CD-Mackay/Risk_Visualization",
     image: "/climate_risk_screenshot.png",
   },
@@ -45,7 +45,13 @@ export const PROJECT_DATA = [
     description: "My first Python application. This Twitter clone allows user to make and follow posts, as well as view user's profiles.",
     url: "https://github.com/CD-Mackay/flask_react_microblog",
     image: "/flask_react_microblog.png",
-  },
+  },{
+    name: "StarCraft II Bot",
+    tech: "Python3, Tensorflow, Keras, OpenCV",
+    description: "A bot for playing the classic RTS game StarCraft II. Uses deep learning to alter strategies over time.",
+    url:"https://github.com/CD-Mackay/sc_bot_mk2_learning",
+    image: "/sc_screenshot.jpg"
+  }
 ];
 
 export const SKILLS_DATA = [
