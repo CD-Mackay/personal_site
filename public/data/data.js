@@ -50,7 +50,7 @@ export const PROJECT_DATA = [
     tech: "Python3, Tensorflow, Keras, OpenCV",
     description: "A bot for playing the classic RTS game StarCraft II. Uses deep learning to alter strategies over time.",
     url:"https://github.com/CD-Mackay/sc_bot_mk2_learning",
-    image: ""
+    image: "/sc_screenshot.jpg"
   }
 ];
 
